@@ -1,0 +1,28 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/grid": "file:../",
+    "@supabase/react-data-grid": "^7.1.0-beta.5",
+    "@supabase/ui": "^0.35.0",
+    "next": "^12.1.0",
+    "pg": "^8.7.1",
+    "react": "file:../node_modules/react",
+    "react-dom": "file:../node_modules/react-dom"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.6.1",
+    "@types/react": "17.0.20",
+    "encoding": "^0.1.13",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "typescript": "4.4.2"
+  }
+}
